@@ -1,6 +1,8 @@
-# Love Running
+# Photo Guides
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+**Photo Guides** is a site that aims to provide explanations, advice and guidance on camera bodies, lenses and settings. So beginner and amateur photographers have a good starting point for equipment required and how to use the equipment. Therefore, this site will be targeted at users who are beginners or amateurs in photography. It will provide in simple language different camera bodies, lenses and how to use the equipment. To help inspire the users we will also provide an area that explains the history of photography and some famous photographers to draw inspiration from. **Photo Guides** therefore will be useful for beginner and amateur photographers by helping them understand the equipment, how to use it and providing inspiration to guide them and their style.
+
+The decision to make this website is due to the user stories found [here](userstory.md).
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 

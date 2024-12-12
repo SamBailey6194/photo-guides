@@ -1,7 +1,7 @@
 # Project
 
 ## Business Goal
-The aim of the website is to provide explanations, advice and guidance on camera bodies, lenses and settings. So beginner and amateur photographers have a good starting point.
+The aim of the website is to provide explanations, advice and guidance on camera bodies, lenses and settings. So beginner and amateur photographers have a good starting point for equipment required and how to use the equipment.
 
 ## User Story 1: Equipment Advice
 As a beginner photographer, I want to understand what type of camera body and lens I should get to start so that I have the right equipment for my level of photography and at a small cost.
@@ -48,7 +48,7 @@ As a amateur photographer, I want to expand and do videos as well and need advic
 - [] Use CSS to ensure the style is appealing and it is responsive to different sizes
 
 ### Priority:
-Should-Have
+Could-Have
 
 ## User Story 4: Teaching Settings
 As a beginner photographer, I would like to understand how to use the settings on the camera better so that I can improve the quality of my photos.
@@ -97,7 +97,7 @@ As a lover of history, I would like to knbow the history of photography so that 
 - [] Use CSS to ensure the style is appealing and it is responsive to different sizes
 
 ### Priority:
-Could-Have
+Should-Have
 
 ## User Story 7: Famous Photographers
 As a budding photographer, I would like to know some famous photographers and their style of photography so that I can look to them for inspiration in my own work.
@@ -112,4 +112,4 @@ As a budding photographer, I would like to know some famous photographers and th
 - [] Use CSS to ensure the style is appealing and it is responsive to different sizes
 
 ### Priority:
-Could-Have
+Should-Have
