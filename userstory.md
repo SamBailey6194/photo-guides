@@ -1,4 +1,4 @@
-# Project
+# Photo Guides Business Goal and User Stories
 
 ## Business Goal
 The aim of the website is to provide explanations, advice and guidance on camera bodies, lenses and settings. So beginner and amateur photographers have a good starting point for equipment required and how to use the equipment.
