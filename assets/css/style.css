@@ -1,33 +1,63 @@
+/* Colour Palette
+#050606 - Jet Black
+#FDFDFD - White
+#D8D7D5 - Pewter
+#ADB3BC - Misty Blue
+*/
+
 /* Google Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lateef:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* CSS Variables */
-
+:root {
+    --primary-font: "Tinos", sans-serif;
+    --secondary-font: "Anton", sans-serif;
+    --tertiary-font: "Playfair Display", sans-serif;
+    --quartary-font: "Lateef", sans-serif;
+    --primary-color: #050606; /*Jet Black*/
+    --secondary-color: #FDFDFD; /*White*/
+    --tertiary-color: #D8D7D5; /*Pewter*/
+    --quartary-color: #ADB3BC; /*Misty Blue*/
+}
 
 /* Global Styles */
 
 /* Body Global Styles */
 body {
     padding-top: 57px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-/* Heaading Global Styles */
+/* Navbar Global Styles */
+nav {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--tertiary-font);
+}
 
-/* Background color edited to help with styling */
+/* Header Global Styles */
 header {
-    background-color: green;
-    color: white;
+    background-color: var(--tertiary-color);
 }
 
+/* Main Global Styles */
 main {
-    background-color: blue;
-    color: white;
+    /* expand main section to push footer to bottom */
+    flex-grow: 1; 
+    flex-shrink: 0; 
+    flex-basis: auto;
 }
 
+/* Footer Global */
 footer {
-    background-color: red;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 /* Sub-Heading Global Styles */
@@ -35,3 +65,8 @@ footer {
 
 /* Section Global Styles */
 
+
+/* Socials Links */
+#contact .social-links {
+
+}
