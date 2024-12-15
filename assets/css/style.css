@@ -58,6 +58,7 @@ main {
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding: 8px;
 }
 
 /* Sub-Heading Global Styles */
@@ -66,7 +67,37 @@ footer {
 /* Section Global Styles */
 
 
-/* Socials Links */
-#contact .social-links {
+/* Navbar indicates what page user is on */
+.current {
+border-bottom: 2px solid var(--secondary-color);
+}
 
+/* Socials Links */
+#contact .social-links i {
+    color: var(--secondary-color);
+    font-size: 250%;
+    padding-bottom: 15px;
+}
+
+#contact .social-links i:hover {
+    color: var(--quartary-color);
+}
+
+#contact .social-links .spacing {
+    margin: 0px 15px;
+}
+
+/* Buttons */
+/* Footer / Contact Button */
+#contact .outline-button {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+}
+
+#contact .outline-button:hover {
+    border: 2px var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
 }
