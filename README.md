@@ -45,7 +45,7 @@ Below are the features for the website and at the end is listed any features tha
     - For the form to be completed all areas must be filled out and the question topic must be selected
     - Upon completion the user is taken to a success page allowing the user to feel at ease that they have filled in the form correctly and it has been submitted
     
-    ![Footer - Contact Form](assets/readmeimgs/General/Footer_Contact Form.PNG)
+    ![Footer - Contact Form](assets/readmeimgs/General/Footer_Contact%20Form.PNG)
 
   - __Socials Link__
     - The social links have been added to help the user feel part of the community by finding like minded people who follow Photo Guides on other platforms 
