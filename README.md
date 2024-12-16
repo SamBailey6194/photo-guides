@@ -4,7 +4,7 @@
 
 The decision to make this website is due to the user stories found [here](userstory.md).
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
@@ -20,54 +20,146 @@ Below are the features for the website and at the end is listed any features tha
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __Home__
+- __Home Page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - __Header__
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    - This header aims to intorduce the purpose of the website
+    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
+    - To provide easy access the contact form is linked via the button below the paragraph
+    
+    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Overview of Website__
+  - __Services__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+- __The Footer__
 
-- __The Footer__ 
+  - __Contact Form__
+    - To help the user get in touch if they have any questions a contact form has been provided
+    - For the form to be completed all areas must be filled out and the question topic must be selected
+    - Upon completion the user is taken to a success page allowing the user to feel at ease that they have filled in the form correctly and it has been submitted
+    
+    ![Footer - Contact Form](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - __Socials Link__
+    - The social links have been added to help the user feel part of the community by finding like minded people who follow Photo Guides on other platforms 
+    - The social links also enable the user to seek out more information from Photo Guides
+    
+    ![Footer - Socials](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+- __Contact Form Success Page__
 
-- __Success Page__
+  - This has been created to put the user at ease after filling out the contact form.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Success Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __Equipment Advice__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - __Header__
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+    - This header aims to intorduce the purpose of the website
+    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
+    - To provide easy access the contact form is linked via the button below the paragraph
+    
+    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __Camera Bodies__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __Camera Lenses__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Settings Tutorial__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - __Header__
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+    - This header aims to intorduce the purpose of the website
+    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
+    - To provide easy access the contact form is linked via the button below the paragraph
+    
+    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Photo History__
+  - __Lighting Triangle What is it__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  - __Lighting Triangle Basics__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __ISO Advanced__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __Shutter Speed Advanced__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __Aperture Advanced__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+- __History and Famous Photographers__
+
+  - __Header__
+
+    - This header aims to intorduce the purpose of the website
+    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
+    - To provide easy access the contact form is linked via the button below the paragraph
+    
+    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __History of Photography__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - __Famous Photographers__
+
+    - The homepage includes a section detailing and a small summary as to what to expect from teh website
+    - This has been achieved through the use of responsive cards that have links to each page
+    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    
+    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 ### Features Left to Implement
 
@@ -90,6 +182,7 @@ Below are the features for the website and at the end is listed any features tha
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 - Lighthouse Score
   - Below you can see my lighthouse score
+
   ![Lighthouse](Lighthouse screenshot)
 
 ### Unfixed Bugs
@@ -107,7 +200,7 @@ This section should describe the process you went through to deploy the project 
   - In the "Branch" section "main" was selected as the branch then "/root" was selected
   - Click "save" and the GitHub Pages was deployed
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://sambailey6194.github.io/photo-guides/ 
 
 ## Credits 
 
@@ -120,7 +213,7 @@ Below are my credits for where I got inspiration for some of the code, where the
 - Love Running inspired the code for the footer being at the bottom of the page and the social media icons in the footer*
 - Boardwalk games inspired the code for the success page*
 
-*Not all the code for these items is an exact copy, some edits were made 
+*Not all the code for these items are exact copies, some edits were made 
 
 ### Content 
 
