@@ -127,15 +127,12 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Making Icon Bigger at top of page */
 .icon-big-l, .icon-big-r {
-    font-size: 300%;
-    padding-top: 15px;
+    font-size: 200%;
 }
 
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
-    .icon-big-l, .icon-big-r {
-        padding-top: 5px;
-    }
+    
 }
 
 /* Media Query for Laptop (992px) */
@@ -146,12 +143,10 @@ border-bottom: 2px solid var(--secondary-color);
 
     /* Icon adjusted left and right at top of page */
     .icon-big-l {
-        padding-top: 5px;
         padding-left: 115px;
     }
 
     .icon-big-r {
-        padding-top: 5px;
         padding-right: 115px;
     }
 }
@@ -176,12 +171,10 @@ border-bottom: 2px solid var(--secondary-color);
 
     /* Icon adjusted left and right at top of page */
     .icon-big-l {
-        padding-top: 5px;
         padding-left: 175px;
     }
 
     .icon-big-r {
-        padding-top: 5px;
         padding-right: 175px;
     }
 }
