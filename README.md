@@ -8,25 +8,26 @@ The decision to make this website is due to the user stories found [here](userst
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Below are the features for the website and at the end is listed any features that weren't able to be implemented but would be with more time.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all the pages, the full responsive navigation bar includes links to all pages and contact form in the footer page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - The navbar is fully responsive across all sizes of devices and become a drop down on smaller screens to make navigation easier on smaller screens.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __About__
+- __Home__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Overview__
+- __Overview of Website__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
@@ -40,7 +41,7 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __History of Photography__
+- __Success Page__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
@@ -54,22 +55,19 @@ In this section, you should go over the different parts of your project, and des
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __Settings Guide__
+- __Settings Tutorial__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __Ask Questions__
+- __Photo History__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 ### Features Left to Implement
 
@@ -77,13 +75,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Contact Form in footer wasn't submitting nor saying why the form wasn't submitting, upon inspection the input type was set to "button", so this was changed to input type "submit"
+- Contact form button was decreasing in size when hovered over and pulling up the social media links at the bottom, therefore the border was made solid so there was no change in size, this meant the socials in the footer didn't move up
+- Contact button in navbar always took you back to homepage due to the href was linked to index.html#contact therefore the index.html was removed and just the #contact was left to enable the contact button to take you to the contact form in the footer of the page, enabling a smoother user experience
+- The cards on the homepage were the different heights and widths across different screen sizes, therefore media queries were added to ensure they all matched across the different screen sizes
+- The gaps between the cards on the homepage were too big on the bigger screen sizes, therefore media queries were added to ensure they were responsive across all screen sizes
 
 
 ### Validator Testing 
@@ -92,35 +88,46 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Lighthouse Score
+  - Below you can see my lighthouse score
+  ![Lighthouse](Lighthouse screenshot)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Sharp corners from CSS to be added to all buttons across the site to add uniformity
 
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the "Settings" tab 
+  - Under "Code and automation" selected "Pages"
+  - Ensure Deploy from branch is selected
+  - In the "Branch" section "main" was selected as the branch then "/root" was selected
+  - Click "save" and the GitHub Pages was deployed
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+Below are my credits for where I got inspiration for some of the code, where the content came from and where media is from.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+## Code
+
+- There has been use of Bootstrap library for CSS and JS across all pages and sections
+- Sharp-corners code in custom CSS is from Portfolio Website Mei
+- Love Running inspired the code for the footer being at the bottom of the page and the social media icons in the footer*
+- Boardwalk games inspired the code for the success page*
+
+*Not all the code for these items is an exact copy, some edits were made 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for in each header was first generated by chatgpt and then edited
+- All icons were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used in each header and on the cards on the homepage are from [Unsplash](https://unsplash.com), the exact photographer is credited under the image in the header.
+- T
