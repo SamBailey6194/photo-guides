@@ -235,4 +235,10 @@ border-bottom: 2px solid var(--secondary-color);
     #homepage .card-img-top {
         min-height: 299px;
     }
+
+    /* Adjusting card body to be same height */
+    /* Adjusting Card Img */
+    #homepage .card-text {
+        min-height: 96px;
+    }
 }
