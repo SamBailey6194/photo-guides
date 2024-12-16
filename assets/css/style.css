@@ -156,7 +156,7 @@ border-bottom: 2px solid var(--secondary-color);
     }
 }
 
-/* Media Query for Largest Screens (1200px) */
+/* Media Query for Largest Screens (1400px) */
 @media screen and (min-width: 1400px) {
     .homep {
         padding-top: 35px;
