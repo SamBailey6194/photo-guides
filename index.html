@@ -57,9 +57,50 @@
 
     <!-- Footer / Contact Section -->
     <footer id="contact">
-        <div class="container col-12">
-            <!-- Social Media Links in Footer -->
-            <div class="social-links col-12">
+        <!-- Contact Form -->
+        <section class="container col-12 col-md-8 mb-4 mt-2">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Contact Form</h2>
+                    <h3>Have a question?</h3>
+                    <p>Fill out the form</p>
+                    <form action="#" method="get">
+                        <div class="row mb-3">
+                            <div class="col-12 col-lg-6">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 my-2">
+                                <label for="number" class="form-label">Phone Number</label>
+                                <input type="number" class="form-control" id="number" name="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 my-2">
+                                <label for="topic" class="form-label">Question Topic</label>
+                                <select class="form-control" id="topic" name="topic" required>
+                                    <option value="" selected>-</option>
+                                    <option value="equipment">Equipment Advice</option>
+                                    <option value="tutorial">Tutorial Question</option>
+                                    <option value="history">Photography History</option>
+                                    <option value="famous-photographers">Famous Photographers</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="question" class="form-label">Question</label>
+                                <textarea class="form-control" id="question" name="question" rows="6" required></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="btn outline-button mb-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Social Media Links in Footer -->
+        <section class="container col-12">
+            <div class="social-links text-center">
                 <a class="spacing" href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Link to our facebook page (opens in a new tab)"><i
                         class="fa-brands fa-square-facebook"></i></a>
@@ -74,30 +115,7 @@
                         class="fa-brands fa-square-youtube"></i></a>
 
             </div>
-            <!-- Contact Form -->
-            <div class="col-12">
-                <div class="text-center">
-                    <h2>Contact Form</h2>
-                    <h3>Have a question?</h3>
-                    <p>Fill out the form</p>
-                </div>
-                <form action="#" method="get">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                        <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                        <label for="number" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="number" name="number" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="question" class="form-label">Question</label>
-                        <textarea class="form-control" id="question" name="question" rows="3"></textarea>
-                    </div>
-                    <button type="button" class="btn outline-button mb-4">Submit</button>
-                </form>
-            </div>
-        </div>
+        </section>
     </footer>
 
     <!-- Bootstrap JS -->
