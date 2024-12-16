@@ -132,22 +132,27 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Media Query for Laptop (992px) */
 @media screen and (min-width: 992px) {
-    .centerp {
-        padding-top: 39px;
-    }
+
 }
 
 /* Media Query for Desktop (1200px) */
 @media screen and (min-width: 1200px) {
-    .centerp {
-        padding-top: 53px;
+    .homep {
+        font-size: 120%;
+    }
+
+    .historyp {
         font-size: 120%;
     }
 }
 
 /* Media Query for Largest Screens (1200px) */
 @media screen and (min-width: 1400px) {
-    .centerp {
-        padding-top: 95px;
+    .homep {
+        padding-top: 65px;
+    }
+
+    .historyp {
+        padding-top: 58px;
     }
 }
