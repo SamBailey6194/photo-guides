@@ -18,17 +18,17 @@ Below are the features for the website and at the end is listed any features tha
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - The navbar is fully responsive across all sizes of devices and become a drop down on smaller screens to make navigation easier on smaller screens.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/readmeimgs/General/Navbar.PNG)
 
 - __Home Page__
 
   - __Header__
 
-    - This header aims to intorduce the purpose of the website
+    - This header aims to introduce the purpose of the website
     - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
     - To provide easy access the contact form is linked via the button below the paragraph
     
-    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Header](assets/readmeimgs/Homepage/Homepage_Header.PNG)
 
   - __Services__
 
@@ -36,7 +36,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](assets/readmeimgs/Homepage/Homepage_Services.PNG)
 
 - __The Footer__
 
@@ -45,13 +45,13 @@ Below are the features for the website and at the end is listed any features tha
     - For the form to be completed all areas must be filled out and the question topic must be selected
     - Upon completion the user is taken to a success page allowing the user to feel at ease that they have filled in the form correctly and it has been submitted
     
-    ![Footer - Contact Form](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+    ![Footer - Contact Form](assets/readmeimgs/General/Footer_Contact Form.PNG)
 
   - __Socials Link__
     - The social links have been added to help the user feel part of the community by finding like minded people who follow Photo Guides on other platforms 
     - The social links also enable the user to seek out more information from Photo Guides
     
-    ![Footer - Socials](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+    ![Footer - Socials](assets/readmeimgs/General/Footer_Socials.PNG)
 
 - __Contact Form Success Page__
 
