@@ -50,6 +50,7 @@ header {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* Main Global Styles */
@@ -58,6 +59,8 @@ main {
     flex-grow: 1; 
     flex-shrink: 0; 
     flex-basis: auto;
+    /* Background Colour */
+    background-color: var(--quartary-color);
 }
 
 /* Footer Global */
@@ -67,11 +70,10 @@ footer {
     padding: 8px;
 }
 
-/* Sub-Heading Global Styles */
-
-
-/* Section Global Styles */
-
+/* Main Background Alternate */
+.background-alternate {
+    background-color: var(--tertiary-color);
+}
 
 /* Navbar indicates what page user is on */
 .current {
@@ -112,6 +114,40 @@ border-bottom: 2px solid var(--secondary-color);
 .custom-button {
     border: 2px var(--primary-color);
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     padding: 10px 20px;
+}
+
+.custom-button:hover {
+    border: 2px solid var(--primary-color);
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+/* Media Query for Tablet (768px) */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Media Query for Laptop (992px) */
+@media screen and (min-width: 992px) {
+    .centerp {
+        padding-top: 39px;
+    }
+}
+
+/* Media Query for Desktop (1200px) */
+@media screen and (min-width: 1200px) {
+    .centerp {
+        padding-top: 53px;
+        font-size: 120%;
+    }
+}
+
+/* Media Query for Largest Screens (1200px) */
+@media screen and (min-width: 1400px) {
+    .centerp {
+        padding-top: 95px;
+    }
 }
