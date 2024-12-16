@@ -130,9 +130,19 @@ border-bottom: 2px solid var(--secondary-color);
     font-size: 200%;
 }
 
+/* Adjusting Card */
+#homepage .card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+}
+
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
-    
+    /* Adjusting Card */
+    #homepage .card {
+        width: 35rem;
+    }
 }
 
 /* Media Query for Laptop (992px) */
@@ -148,6 +158,15 @@ border-bottom: 2px solid var(--secondary-color);
 
     .icon-big-r {
         padding-right: 115px;
+    }
+    /* Adjusting Card */
+    #homepage .card {
+        width: 18rem;
+    }
+
+    /* Adjusting Card Img */
+    #homepage .card-img-top {
+        min-height: 215px;
     }
 }
 
@@ -177,6 +196,16 @@ border-bottom: 2px solid var(--secondary-color);
     .icon-big-r {
         padding-right: 175px;
     }
+
+    /* Adjusting Card */
+    #homepage .card {
+        width: 22rem;
+    }
+
+    /* Adjusting Card Img */
+    #homepage .card-img-top {
+        min-height: 265px;
+    }
 }
 
 /* Media Query for Largest Screens (1400px) */
@@ -195,5 +224,15 @@ border-bottom: 2px solid var(--secondary-color);
 
     .tutorialp {
         padding-top: 35px;
+    }
+
+    /* Adjusting Card */
+    #homepage .card {
+        width: 25rem;
+    }
+
+    /* Adjusting Card Img */
+    #homepage .card-img-top {
+        min-height: 299px;
     }
 }
