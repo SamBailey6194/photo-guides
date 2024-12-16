@@ -47,7 +47,7 @@ header {
 }
 
 /* Headings Global Style */
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -96,6 +96,19 @@ border-bottom: 2px solid var(--secondary-color);
     margin: 0px 15px;
 }
 
+/* Adjusting Card */
+#homepage .card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+    background-color: var(--tertiary-color);
+}
+
+/* Adjusting Card to have sharp corners */
+#homepage .sharp-corners, #homepage .sharp-corners * {
+    border-radius: 0;
+}
+
 /* Buttons */
 /* Footer / Contact Button */
 #contact .outline-button {
@@ -111,6 +124,7 @@ border-bottom: 2px solid var(--secondary-color);
     padding: 10px 20px;
 }
 
+/* Buttons not in footer */
 .custom-button {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
@@ -128,13 +142,6 @@ border-bottom: 2px solid var(--secondary-color);
 /* Making Icon Bigger at top of page */
 .icon-big-l, .icon-big-r {
     font-size: 200%;
-}
-
-/* Adjusting Card */
-#homepage .card {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 18rem;
 }
 
 /* Media Query for Tablet (768px) */
