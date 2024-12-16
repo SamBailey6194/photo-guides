@@ -108,3 +108,10 @@ border-bottom: 2px solid var(--secondary-color);
     color: var(--primary-color);
     padding: 10px 20px;
 }
+
+.custom-button {
+    border: 2px var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+}
