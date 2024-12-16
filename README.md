@@ -196,7 +196,7 @@ This section should describe the process you went through to deploy the project 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the "Settings" tab 
   - Under "Code and automation" selected "Pages"
-  - Ensure Deploy from branch is selected
+  - Ensure "Deploy from branch" is selected
   - In the "Branch" section "main" was selected as the branch then "/root" was selected
   - Click "save" and the GitHub Pages was deployed
 
