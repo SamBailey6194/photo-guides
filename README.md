@@ -237,7 +237,7 @@ The live link can be found here - https://sambailey6194.github.io/photo-guides/
 
 Below are my credits for where I got inspiration for some of the code, where the content came from and where media is from.
 
-## Code
+### Code
 
 - There has been use of Bootstrap library for CSS and JS across all pages and sections
 - Sharp-corners code in custom CSS is from Portfolio Website Mei
