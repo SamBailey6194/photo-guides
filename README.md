@@ -67,7 +67,7 @@ Below are the features for the website and at the end is listed any features tha
     - This header aims to intorduce the equipment advice page
     - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the equipment advice page
     
-    ![Homepage Header](add image)
+    ![Equipment Advice Header](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Header.PNG)
 
   - __Camera Bodies__
 
@@ -77,7 +77,9 @@ Below are the features for the website and at the end is listed any features tha
     - There is also a price point table for each type with recommended equipment at each price point, while also linking the user to MPB a very reputable second hand camera equipment site. This gives the user an understanding of which camera body they should go for with their level and their current finances.
     - The table is a limited resource due to the vast catalogue of camera bodies and the many other type of camera bodies out there
     
-    ![Homepage Overview](add image)
+    ![Equipment Advice Camera Bodies pt.1](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Body_1.PNG)
+
+    ![Equipment Advice Camera Bodies pt.2](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Body_2.PNG)
 
   - __Camera Lenses__
 
@@ -86,7 +88,11 @@ Below are the features for the website and at the end is listed any features tha
     - There is also a price point table for each lens aspect with recommended equipment at each price point, while also linking the user to MPB a very reputable second hand camera equipment site. This gives the user an understanding of which camera lens they should go for with their level and their current finances.
     - The table is a limited resource due to the vast catalogue of lenses out there
     
-    ![Homepage Overview](add image)
+    ![Equipment Advice Camera Lenses pt.1](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_1.PNG)
+
+    ![Equipment Advice Camera Lenses pt.2](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_2.PNG)
+
+    ![Equipment Advice Camera Lenses pt.3](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_3.PNG)
 
 - __Settings Tutorial__
 
