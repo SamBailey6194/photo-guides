@@ -242,6 +242,7 @@ Below are my credits for where I got inspiration for some of the code, where the
 
 - The majority of the text (not the code) has been generated first using chatgpt and then edited.
 - All icons were taken from [Font Awesome](https://fontawesome.com/)
+- All fonts taken from Google Fonts using the import link
 
 ### Media
 
