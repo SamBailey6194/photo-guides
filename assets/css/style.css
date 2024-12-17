@@ -60,7 +60,7 @@ h4, h5, h6 {
 }
 
 /* Making h4 headings for light triangle sections uppercase */
-#wahtlt h4, #basicslt h4 {
+#whatlt h4, #basicslt h4 {
     text-transform: uppercase;
 }
 
