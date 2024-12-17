@@ -162,6 +162,11 @@ border-bottom: 2px solid var(--secondary-color);
     max-width: 320px;
 }
 
+/* Alternate hyperlink colour text on camera lenses table */
+#camera-lenses .hyperlink a {
+    color: #2D0070;
+}
+
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
     /* Adjusting Card */
