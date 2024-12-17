@@ -47,10 +47,16 @@ header {
 }
 
 /* Headings Global Style */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+/* Make h4-h6 headings not uppercase */
+h4, h5, h6 {
+    font-family: var(--secondary-font);
+    letter-spacing: 2px;
 }
 
 /* Main Global Styles */
