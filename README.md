@@ -168,6 +168,8 @@ Below are the features for the website and at the end is listed any features tha
 
 ## Testing 
 
+The website has been tested; including internal (buttons and navbar) & external links, responsive design, and forms; on Opera GX, Google Chrome, Mozilla Firefox, and Microsoft Edge.
+
 - Contact Form in footer wasn't submitting nor saying why the form wasn't submitting, upon inspection the input type was set to "button", so this was changed to input type "submit"
 - Contact form button was decreasing in size when hovered over and pulling up the social media links at the bottom, therefore the border was made solid so there was no change in size, this meant the socials in the footer didn't move up
 - Contact button in navbar always took you back to homepage due to the href was linked to index.html#contact therefore the index.html was removed and just the #contact was left to enable the contact button to take you to the contact form in the footer of the page, enabling a smoother user experience
@@ -188,8 +190,6 @@ Below are the features for the website and at the end is listed any features tha
   ![Lighthouse](Lighthouse screenshot)
 
 ### Unfixed Bugs
-
-- Sharp corners from CSS to be added to all buttons across the site to add uniformity
 
 ## Deployment
 
