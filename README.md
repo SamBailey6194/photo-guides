@@ -191,9 +191,9 @@ The website has been tested; including internal (buttons and navbar) & external 
     - [W3C validator - Success](add link)
 
 - CSS
-  - No errors were found when passing through the official 
+  - No errors were found when passing through the official Jigsaw validator, see link below.
   
-  [(Jigsaw) validator](add link)
+    - [(Jigsaw) validator](add link)
 
 - Lighthouse Score
   - Below you can see my lighthouse scores
