@@ -244,4 +244,4 @@ Below are my credits for where I got inspiration for some of the code, where the
 ### Media
 
 - All images are either from [Unsplash](https://unsplash.com) or [Pexels](https://www.pexels.com), where possible the exact photographer and source is credited under the image.
-- T
+- Image on "Settings Tutorial" of the light triangle is from [Photography Life](https://photographylife.com/what-is-exposure-triangle)
