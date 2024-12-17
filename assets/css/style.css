@@ -151,13 +151,15 @@ border-bottom: 2px solid var(--secondary-color);
     font-size: 200%;
 }
 
-/* Price Points Table Backgrounds */
+/* Price Points Table Backgrounds and Width */
 #camera-bodies .table * {
     background-color: var(--tertiary-color);
+    max-width: 320px;
 }
 
 #camera-lenses .table * {
     background-color: var(--quartary-color);
+    max-width: 320px;
 }
 
 /* Media Query for Tablet (768px) */

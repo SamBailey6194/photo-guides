@@ -171,13 +171,15 @@ Below are the features for the website and at the end is listed any features tha
 
 The website has been tested; including internal (buttons and navbar) & external links, responsive design, and forms; on Opera GX, Google Chrome, Mozilla Firefox, and Microsoft Edge.
 
+### Fixed Bugs
+
 - Contact Form in footer wasn't submitting nor saying why the form wasn't submitting, upon inspection the input type was set to "button", so this was changed to input type "submit"
 - Contact form button was decreasing in size when hovered over and pulling up the social media links at the bottom, therefore the border was made solid so there was no change in size, this meant the socials in the footer didn't move up
 - Contact button in navbar always took you back to homepage due to the href was linked to index.html#contact therefore the index.html was removed and just the #contact was left to enable the contact button to take you to the contact form in the footer of the page, enabling a smoother user experience
 - The cards on the homepage were the different heights and widths across different screen sizes, therefore media queries were added to ensure they all matched across the different screen sizes
 - The gaps between the cards on the homepage were too big on the bigger screen sizes, therefore media queries were added to ensure they were responsive across all screen sizes
 - Camera Lenses section on Equipment page background wasn't stretching the full width due to contianer fluid class was in the main element, used sections to make it clearer so the background stretched the full width.
-
+- Price point tables were too bit on mobile devices, added table-responsive to ensure they fit nicely on all device sizes.
 
 ### Validator Testing 
 
