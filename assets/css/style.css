@@ -207,19 +207,7 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Media Query for Desktop (1200px) */
 @media screen and (min-width: 1200px) {
-    .homep {
-        font-size: 120%;
-    }
-
-    .historyp {
-        font-size: 120%;
-    }
-
-    .equipmentp {
-        font-size: 120%;
-    }
-
-    .tutorialp {
+    .headerp {
         font-size: 120%;
     }
 
@@ -245,23 +233,7 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Media Query for Largest Screens (1400px) */
 @media screen and (min-width: 1400px) {
-    .homep {
-        padding-top: 35px;
-    }
-
-    .historyp {
-        padding-top: 58px;
-    }
-
-    .equipmentp {
-        padding-top: 89px;
-    }
-
-    .tutorialp {
-        padding-top: 35px;
-    }
-
-    /* Adjusting Card */
+     /* Adjusting Card */
     .card {
         width: 25rem;
     }
