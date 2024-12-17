@@ -56,8 +56,9 @@ Below are the features for the website and at the end is listed any features tha
 - __Contact Form Success Page__
 
   - This has been created to put the user at ease after filling out the contact form.
+  - Please note that the footer does not contain the contact form and the contact button in the navbar redirects to the home page.
 
-![Success Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Success Page](assets/readmeimgs/Success%20Page/Success.PNG)
 
 - __Equipment Advice__
 
