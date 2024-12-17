@@ -4,7 +4,7 @@
 
 The decision to make this website is due to the user stories found [here](userstory.md).
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/readmeimgs/General/am_I_responsive_photo_guides.PNG)
 
 ## Features 
 
@@ -64,37 +64,38 @@ Below are the features for the website and at the end is listed any features tha
 
   - __Header__
 
-    - This header aims to intorduce the purpose of the website
-    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
-    - To provide easy access the contact form is linked via the button below the paragraph
+    - This header aims to intorduce the equipment advice page
+    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the equipment advice page
     
-    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Header](add image)
 
   - __Camera Bodies__
 
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    - This section is all about providing information on 3 different camera body types DSLR, Mirrorless, and Medium Format.
+    - The information provided are short paragraphs detailing what the camera body type is, advantages of it, and disadvantages of it to provide the user with simple easy infomration to help inform their choice as to what works for their needs.
+    - There is an example image for each camera body type to provide an idea of what the camera body type they might want should look like
+    - There is also a price point table for each type with recommended equipment at each price point, while also linking the user to MPB a very reputable second hand camera equipment site. This gives the user an understanding of which camera body they should go for with their level and their current finances.
+    - The table is a limited resource due to the vast catalogue of camera bodies and the many other type of camera bodies out there
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
   - __Camera Lenses__
 
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    - This section is all about providing information on different things to look for with lens aspects this includes, focal length, prime v zoom lens, and fast v slow lens.
+    - The information provided are short paragraphs detailing what the aspect of the lens actually means, providing use cases for each lens aspect.
+    - There is also a price point table for each lens aspect with recommended equipment at each price point, while also linking the user to MPB a very reputable second hand camera equipment site. This gives the user an understanding of which camera lens they should go for with their level and their current finances.
+    - The table is a limited resource due to the vast catalogue of lenses out there
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
 - __Settings Tutorial__
 
   - __Header__
 
-    - This header aims to intorduce the purpose of the website
-    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
-    - To provide easy access the contact form is linked via the button below the paragraph
+    - This header aims to intorduce the purpose of the settings tutorial page
+    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from this page
     
-    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Header](add image)
 
   - __Lighting Triangle What is it__
 
@@ -102,7 +103,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
   - __Lighting Triangle Basics__
 
@@ -110,7 +111,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
   - __ISO Advanced__
 
@@ -118,7 +119,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
   - __Shutter Speed Advanced__
 
@@ -126,7 +127,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
   - __Aperture Advanced__
 
@@ -134,7 +135,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
 - __History and Famous Photographers__
 
@@ -144,7 +145,7 @@ Below are the features for the website and at the end is listed any features tha
     - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
     - To provide easy access the contact form is linked via the button below the paragraph
     
-    ![Homepage Header](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Header](add image)
 
   - __History of Photography__
 
@@ -152,7 +153,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
   - __Famous Photographers__
 
@@ -160,7 +161,7 @@ Below are the features for the website and at the end is listed any features tha
     - This has been achieved through the use of responsive cards that have links to each page
     - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
     
-    ![Homepage Overview](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Homepage Overview](add image)
 
 ### Features Left to Implement
 
@@ -181,15 +182,31 @@ The website has been tested; including internal (buttons and navbar) & external 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-- Lighthouse Score
-  - Below you can see my lighthouse score
+  - No errors were returned when passing through the official W3C Validator, see links below for each page.
 
-  ![Lighthouse](Lighthouse screenshot)
+  [W3C validator - Homepage](add link)
+  [W3C validator - Equipment](add link)
+  [W3C validator - Tutorial](add link)
+  [W3C validator - History](add link)
+  [W3C validator - Success](add link)
+
+- CSS
+  - No errors were found when passing through the official 
+  
+  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+- Lighthouse Score
+  - Below you can see my lighthouse scores
+
+  ![Lighthouse - Homepage](Lighthouse screenshot)
+  ![Lighthouse - Equipment](Lighthouse screenshot)
+  ![Lighthouse - Tutorial](Lighthouse screenshot)
+  ![Lighthouse - History](Lighthouse screenshot)
+  ![Lighthouse - Success](Lighthouse screenshot)
 
 ### Unfixed Bugs
+
+No bugs left, all were fixed
 
 ## Deployment
 
