@@ -184,24 +184,28 @@ The website has been tested; including internal (buttons and navbar) & external 
 - HTML
   - No errors were returned when passing through the official W3C Validator, see links below for each page.
 
-  [W3C validator - Homepage](add link)
-  [W3C validator - Equipment](add link)
-  [W3C validator - Tutorial](add link)
-  [W3C validator - History](add link)
-  [W3C validator - Success](add link)
+    - [W3C validator - Homepage](add link)
+    - [W3C validator - Equipment](add link)
+    - [W3C validator - Tutorial](add link)
+    - [W3C validator - History](add link)
+    - [W3C validator - Success](add link)
 
 - CSS
   - No errors were found when passing through the official 
   
-  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  [(Jigsaw) validator](add link)
 
 - Lighthouse Score
   - Below you can see my lighthouse scores
 
   ![Lighthouse - Homepage](Lighthouse screenshot)
+  
   ![Lighthouse - Equipment](Lighthouse screenshot)
+  
   ![Lighthouse - Tutorial](Lighthouse screenshot)
+  
   ![Lighthouse - History](Lighthouse screenshot)
+  
   ![Lighthouse - Success](Lighthouse screenshot)
 
 ### Unfixed Bugs
