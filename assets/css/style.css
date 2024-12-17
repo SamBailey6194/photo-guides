@@ -182,10 +182,6 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Media Query for Laptop (992px) */
 @media screen and (min-width: 992px) {
-    .equipmentp {
-        padding-top: 32px;
-    }
-
     /* Icon adjusted left and right at top of page */
     .icon-big-l {
         padding-left: 115px;
@@ -203,6 +199,12 @@ border-bottom: 2px solid var(--secondary-color);
     .card-img-top {
         min-height: 215px;
     }
+
+    /* Adjust images for Light Triangle basics to other side 
+    .swapimg {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }*/
 }
 
 /* Media Query for Desktop (1200px) */
