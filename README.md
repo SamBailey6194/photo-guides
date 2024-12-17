@@ -119,30 +119,6 @@ Below are the features for the website and at the end is listed any features tha
     
     ![Homepage Overview](add image)
 
-  - __ISO Advanced__
-
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
-    
-    ![Homepage Overview](add image)
-
-  - __Shutter Speed Advanced__
-
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
-    
-    ![Homepage Overview](add image)
-
-  - __Aperture Advanced__
-
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
-    
-    ![Homepage Overview](add image)
-
 - __History and Famous Photographers__
 
   - __Header__
@@ -171,7 +147,13 @@ Below are the features for the website and at the end is listed any features tha
 
 ### Features Left to Implement
 
-- Another feature idea
+- Make the "Setting Tutorial" be a dropdown and have "Lighting Triangle", "ISO", "Shutter Speed", and "Aperture" as options.
+  - "Lighting Triangle" would have the two sections on the current "Setting Tutorial" page
+  - The other 3 pages would go into detail and use images as examples to explain how to use that specific setting clearly
+
+## Lessons Learnt
+
+- After chatting with my mentor I learnt that my commit messages need to have a standard format, having the verb word at the start, from commit 57 I hope to acheive this.
 
 ## Testing 
 
@@ -215,6 +197,13 @@ The website has been tested; including internal (buttons and navbar) & external 
   ![Lighthouse - History](Lighthouse screenshot)
   
   ![Lighthouse - Success](Lighthouse screenshot)
+
+### Links and Actions
+
+| Location | Link / Button | Expected Action | Pass / Fail |
+| --- | --- | --- | --- |
+| All Pages | Navbar Links | Go to page clicked on | Pass/Fail |
+| Homepage Header | Contact Button | Go to contact form at bottom of page | Pass/Fail |
 
 ### Unfixed Bugs
 
