@@ -76,6 +76,7 @@ Below are the features for the website and at the end is listed any features tha
     - There is an example image for each camera body type to provide an idea of what the camera body type they might want should look like
     - There is also a price point table for each type with recommended equipment at each price point, while also linking the user to MPB a very reputable second hand camera equipment site. This gives the user an understanding of which camera body they should go for with their level and their current finances.
     - The table is a limited resource due to the vast catalogue of camera bodies and the many other type of camera bodies out there
+    - At the bottom of the section is a button that leads you to the contact form enabling the user a quick and easy navigation to the contact form
     
     ![Equipment Advice Camera Bodies pt.1](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Body_1.PNG)
 
@@ -87,6 +88,7 @@ Below are the features for the website and at the end is listed any features tha
     - The information provided are short paragraphs detailing what the aspect of the lens actually means, providing use cases for each lens aspect.
     - There is also a price point table for each lens aspect with recommended equipment at each price point, while also linking the user to MPB a very reputable second hand camera equipment site. This gives the user an understanding of which camera lens they should go for with their level and their current finances.
     - The table is a limited resource due to the vast catalogue of lenses out there
+    At the bottom of the section is a button that leads you to the contact form enabling the user a quick and easy navigation to the contact form
     
     ![Equipment Advice Camera Lenses pt.1](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_1.PNG)
 
@@ -101,23 +103,29 @@ Below are the features for the website and at the end is listed any features tha
     - This header aims to intorduce the purpose of the settings tutorial page
     - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from this page
     
-    ![Homepage Header](add image)
+    ![Tutorial Page Header](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_header.PNG)
 
   - __Lighting Triangle What is it__
 
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    - This section is to introduce the user to the basics of the Lighting Triangle (also known as Exposure Triangle).
+    - Using an image to intorduce the lighting triangle helps the user gain a quick and basic understanding as to what to expect from the rest of this page
+    - There is also some text to give a introduction to the three parts of the Lighting Triangle
+    At the bottom of the section is a button that leads you to the contact form enabling the user a quick and easy navigation to the contact form
     
-    ![Homepage Overview](add image)
+    ![Tutorial Page Lighting Triangle](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_lighttriangle.PNG)
 
   - __Lighting Triangle Basics__
 
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    - In this section the aim is to teach the user how to use the lighting triangle settings at a basic level
+    - This has been done by having 3 sections, one for each setting providing details as to how to use the settings
+    - To help illustrate good use of the different settings there is a carousel if photos in each section from different situations requiring different settings the user can click through
+    - At the bottom of the section is a button that leads you to the contact form enabling the user a quick and easy navigation to the contact form
     
-    ![Homepage Overview](add image)
+    ![Tutorial Page ISO Settings](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_isosettings.PNG)
+
+    ![Tutorial Page shutter speed Settings](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_shutterspeedsettings.PNG)
+
+    ![Tutorial Page aperture Settings](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_aperturesettings.PNG)
 
 - __History and Famous Photographers__
 
@@ -168,6 +176,7 @@ The website has been tested; including internal (buttons and navbar) & external 
 - The gaps between the cards on the homepage were too big on the bigger screen sizes, therefore media queries were added to ensure they were responsive across all screen sizes
 - Camera Lenses section on Equipment page background wasn't stretching the full width due to contianer fluid class was in the main element, used sections to make it clearer so the background stretched the full width.
 - Price point tables were too bit on mobile devices, added table-responsive to ensure they fit nicely on all device sizes.
+- Photo Carousels were clicking through the top carousel only, changed the IDs of each carousel to enable the buttons moved the correct carousel 
 
 ### Validator Testing 
 
@@ -200,10 +209,53 @@ The website has been tested; including internal (buttons and navbar) & external 
 
 ### Links and Actions
 
-| Location | Link / Button | Expected Action | Pass / Fail |
-| --- | --- | --- | --- |
-| All Pages | Navbar Links | Go to page clicked on | Pass/Fail |
-| Homepage Header | Contact Button | Go to contact form at bottom of page | Pass/Fail |
+| Location | Link / Button | Expected Action | Pass / Fail Chrome | Pass / Fail Opera | Pass / Fail Firefox | Pass / Fail Safari |
+| --- | --- | --- | --- | --- | --- | --- |
+| All Pages | Navbar Logo | Go to Homepage | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Navbar Home | Go to Homepage | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Navbar Equipment Advice | Go to Equipment Advice Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Navbar Tutorial Setting | Go to Tutorial Settings Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Navbar Photo History | Go to Photo History Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Navbar Contact | Go to Contact Form in Footer | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages (except success page) | Footer Contact Form | Requires all boxes to be filled in and then send to a success page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Success Page | Return to Home Button | Return to Home Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Footer Facebook | Open Facebook in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Footer X (Formerly Twitter) | Open X (Formerly Twitter) in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Footer Instagram | Open Instagram in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| All Pages | Footer YouTube | Open YouTube in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Homepage Header | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Homepage Header | Reference Link of Kir Simakov Under Photo | Open Kir Simakov Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Homepage Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Homepage Services | Equipment Button | Go to Equipment Advice Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Homepage Services | Settings Button | Go to Tutorial Settings Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Homepage Services | History Button | Go to Photo History Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Header | Reference Link of Alexander Andrews Under Photo | Open Alexander Andrews Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Body | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Body | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Body | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Body | Reference Link of MPB | Open MPB Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Body | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Body | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of Markus Spiske Under Photo | Open the images origin Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of Thijs van der Weide Under Photo | Open the images origin Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of Pixabay Under Photo | Open the images origin Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Link of MPB | Open MPB Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Equipment Advice Camera Lens | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Header | Reference Link of Smart Under Photo | Open Smart Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Light Triangle What is it? | Reference Link of Photography Life Under Photo | Open Photography Life Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Light Triangle What is it? | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Basics | Carousel Next Buttons | Move photo to the next photo | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Basics | Carousel Previous Buttons | Move photo to the next photo | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Settings Tutorial Light Triangle Basics | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Header | Reference Link of Jonathan Talbert Under Photo | Open Jonathan Talbert Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+
 
 ### Unfixed Bugs
 
