@@ -172,13 +172,13 @@ border-bottom: 2px solid var(--secondary-color);
     color: #2D0070;
 }
 
-/* Adjusting font colour on the Carousels on tutorial page */
-#carouselExampleIndicators h5  {
+/* Adjusting font to be readable on Carousels on tutorial page */
+#isocarousel h5, #shutterspeedcarousel h5,  #aperturecarousel h5  {
     color: var(--secondary-color);
     text-shadow: 2px 1px 1px var(--primary-color);
 }
 
-#carouselExampleIndicators p {
+#isocarousel p, #shutterspeedcarousel p,  #aperturecarousel p {
     color: var(--secondary-color);
     text-shadow: 2px 1px 1px var(--primary-color);
 }
