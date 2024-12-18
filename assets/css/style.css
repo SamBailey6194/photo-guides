@@ -173,8 +173,14 @@ border-bottom: 2px solid var(--secondary-color);
 }
 
 /* Adjusting font colour on the Carousels on tutorial page */
-#basiclt .fontcolor {
-    color: var(--quartary-color);
+#carouselExampleIndicators h5  {
+    color: var(--secondary-color);
+    text-shadow: 2px 1px 1px var(--primary-color);
+}
+
+#carouselExampleIndicators p {
+    color: var(--secondary-color);
+    text-shadow: 2px 1px 1px var(--primary-color);
 }
 
 /* Media Query for Tablet (768px) */
