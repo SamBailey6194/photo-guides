@@ -92,7 +92,7 @@ Below are the features for the website and at the end is listed any features tha
 
     ![Equipment Advice Camera Lenses pt.2](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_2.PNG)
 
-    ![Equipment Advice Camera Lenses pt.3](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_3.PNG)
+    ![Equipment Advice Camera Lenses pt.3](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Camera_Lenses_3.png)
 
 - __Settings Tutorial__
 
