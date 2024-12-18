@@ -189,6 +189,15 @@ border-bottom: 2px solid var(--secondary-color);
     .card {
         width: 35rem;
     }
+
+    /* Moving carousels down of famous photographers to be in line */
+    #billbrandt .carousel-inner {
+        margin-top: 40px;
+    }
+
+    #vivianmaier .carousel-inner {
+        margin-top: 62px;
+    }
 }
 
 /* Media Query for Laptop (992px) */
