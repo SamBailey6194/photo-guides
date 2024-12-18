@@ -172,6 +172,11 @@ border-bottom: 2px solid var(--secondary-color);
     color: #2D0070;
 }
 
+/* Adjusting font colour on the Carousels on tutorial page */
+#basiclt .fontcolor {
+    color: var(--quartary-color);
+}
+
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
     /* Adjusting Card */
