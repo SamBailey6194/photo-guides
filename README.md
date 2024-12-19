@@ -179,6 +179,9 @@ The website has been tested; including internal (buttons and navbar) & external 
 - Photo Carousels were clicking through the top carousel only, changed the IDs of each carousel to enable the buttons moved the correct carousel
 - Carousels on Photo History page were not clicking to next or previous images due to misspelling of IDs, corrected spellings of the IDs
 - Famous photographer carousels not in line on all device sizes, added media queries to ensure they are
+- Removed closing tag div that had no opening div on index.html
+- Removed space in image link on equipment.html
+- Removed closing tag p that had no opening p on equipment.html
 
 ### Validator Testing 
 
