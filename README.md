@@ -182,6 +182,8 @@ The website has been tested; including internal (buttons and navbar) & external 
 - Removed closing tag div that had no opening div on index.html
 - Removed space in image link on equipment.html
 - Removed closing tag p that had no opening p on equipment.html
+- Changed name to be valid for lighting triangle image
+- Added a closing div tag to tutorial.html to how to use light triangle section
 
 ### Validator Testing 
 
