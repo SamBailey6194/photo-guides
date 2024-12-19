@@ -15,10 +15,14 @@
     --secondary-font: "Anton", sans-serif;
     --tertiary-font: "Playfair Display", sans-serif;
     --quartary-font: "Lateef", sans-serif;
-    --primary-color: #050606; /*Jet Black*/
-    --secondary-color: #FDFDFD; /*White*/
-    --tertiary-color: #D8D7D5; /*Pewter*/
-    --quartary-color: #ADB3BC; /*Misty Blue*/
+    --primary-color: #050606;
+    /*Jet Black*/
+    --secondary-color: #FDFDFD;
+    /*White*/
+    --tertiary-color: #D8D7D5;
+    /*Pewter*/
+    --quartary-color: #ADB3BC;
+    /*Misty Blue*/
 }
 
 /* Global Styles */
@@ -47,28 +51,33 @@ header {
 }
 
 /* Headings Global Style */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 /* Make h4-h6 headings not uppercase */
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
 }
 
 /* Making h4 headings for light triangle sections uppercase */
-#whatlt h4, #basicslt h4 {
+#whatlt h4,
+#basicslt h4 {
     text-transform: uppercase;
 }
 
 /* Main Global Styles */
 main {
     /* expand main section to push footer to bottom */
-    flex-grow: 1; 
-    flex-shrink: 0; 
+    flex-grow: 1;
+    flex-shrink: 0;
     flex-basis: auto;
     /* Background Colour */
     background-color: var(--quartary-color);
@@ -89,7 +98,7 @@ footer {
 
 /* Navbar indicates what page user is on */
 .current {
-border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 /* Socials Links */
@@ -117,7 +126,8 @@ border-bottom: 2px solid var(--secondary-color);
 }
 
 /* Adjusting Card to have sharp corners */
-.sharp-corners, .sharp-corners * {
+.sharp-corners,
+.sharp-corners * {
     border-radius: 0;
 }
 
@@ -152,7 +162,8 @@ border-bottom: 2px solid var(--secondary-color);
 }
 
 /* Making Icon Bigger at top of page */
-.icon-big-l, .icon-big-r {
+.icon-big-l,
+.icon-big-r {
     font-size: 200%;
 }
 
@@ -173,18 +184,30 @@ border-bottom: 2px solid var(--secondary-color);
 }
 
 /* Adjusting font to be readable on Carousels on tutorial page */
-#isocarousel h5, #shutterspeedcarousel h5,  #aperturecarousel h5  {
+#isocarousel h5,
+#shutterspeedcarousel h5,
+#aperturecarousel h5 {
     color: var(--secondary-color);
     text-shadow: 2px 1px 1px var(--primary-color);
 }
 
-#isocarousel p, #shutterspeedcarousel p,  #aperturecarousel p {
+#isocarousel p,
+#shutterspeedcarousel p,
+#aperturecarousel p {
     color: var(--secondary-color);
     text-shadow: 2px 1px 1px var(--primary-color);
+}
+
+/* Adjusting Carouself for famous photographers to be same height */
+#anseladams .carousel-item *,
+#billbrandt .carousel-item *,
+#vivianmaier .carousel-item * {
+    max-height: 308.91px;
 }
 
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
+
     /* Adjusting Card */
     .card {
         width: 35rem;
@@ -202,6 +225,7 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Media Query for Laptop (992px) */
 @media screen and (min-width: 992px) {
+
     /* Icon adjusted left and right at top of page */
     .icon-big-l {
         padding-left: 115px;
@@ -210,6 +234,7 @@ border-bottom: 2px solid var(--secondary-color);
     .icon-big-r {
         padding-right: 115px;
     }
+
     /* Adjusting Card */
     .card {
         width: 18rem;
@@ -255,7 +280,8 @@ border-bottom: 2px solid var(--secondary-color);
 
 /* Media Query for Largest Screens (1400px) */
 @media screen and (min-width: 1400px) {
-     /* Adjusting Card */
+
+    /* Adjusting Card */
     .card {
         width: 25rem;
     }
