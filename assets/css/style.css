@@ -198,11 +198,11 @@ footer {
     text-shadow: 2px 1px 1px var(--primary-color);
 }
 
-/* Adjusting Carouself for famous photographers to be same height */
-#anseladams .carousel-item *,
-#billbrandt .carousel-item *,
-#vivianmaier .carousel-item * {
-    max-height: 308.91px;
+/* Adjusting Carousel for famous photographers to be same height */
+#anseladams .carousel-item,
+#billbrandt .carousel-item,
+#vivianmaier .carousel-item {
+    max-height: 279.95px;
 }
 
 /* Media Query for Tablet (768px) */
@@ -219,7 +219,14 @@ footer {
     }
 
     #vivianmaier .carousel-inner {
-        margin-top: 62px;
+        margin-top: 111px;
+    }
+
+    /* Adjusting Carouself for famous photographers to be same height */
+    #anseladams .carousel-item,
+    #billbrandt .carousel-item,
+    #vivianmaier .carousel-item {
+        max-height: 160.39px;
     }
 }
 
@@ -245,11 +252,17 @@ footer {
         min-height: 215px;
     }
 
-    /* Adjust images for Light Triangle basics to other side 
-    .swapimg {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }*/
+    /* Moving carousels down of famous photographers to be in line */
+    #vivianmaier .carousel-inner {
+        margin-top: 87px;
+    }
+
+    /* Adjusting Carousel for famous photographers to be same height */
+    #anseladams .carousel-item,
+    #billbrandt .carousel-item,
+    #vivianmaier .carousel-item {
+        max-height: 219.78px;
+    }
 }
 
 /* Media Query for Desktop (1200px) */
@@ -276,6 +289,13 @@ footer {
     .card-img-top {
         min-height: 265px;
     }
+
+    /* Adjusting Carousel for famous photographers to be same height */
+    #anseladams .carousel-item,
+    #billbrandt .carousel-item,
+    #vivianmaier .carousel-item {
+        max-height: 264.36px;
+    }
 }
 
 /* Media Query for Largest Screens (1400px) */
@@ -295,5 +315,17 @@ footer {
     /* Adjusting Card Img */
     .card-text {
         min-height: 96px;
+    }
+
+    /* Moving carousels down of famous photographers to be in line */
+    #vivianmaier .carousel-inner {
+        margin-top: 62px;
+    }
+
+    /* Adjusting Carousel for famous photographers to be same height */
+    #anseladams .carousel-item,
+    #billbrandt .carousel-item,
+    #vivianmaier .carousel-item {
+        max-height: 308.91px;
     }
 }

@@ -176,7 +176,8 @@ The website has been tested; including internal (buttons and navbar) & external 
 - The gaps between the cards on the homepage were too big on the bigger screen sizes, therefore media queries were added to ensure they were responsive across all screen sizes
 - Camera Lenses section on Equipment page background wasn't stretching the full width due to contianer fluid class was in the main element, used sections to make it clearer so the background stretched the full width.
 - Price point tables were too bit on mobile devices, added table-responsive to ensure they fit nicely on all device sizes.
-- Photo Carousels were clicking through the top carousel only, changed the IDs of each carousel to enable the buttons moved the correct carousel 
+- Photo Carousels were clicking through the top carousel only, changed the IDs of each carousel to enable the buttons moved the correct carousel
+- Carousels on Photo History page were not clicking to next or previous images due to misspelling of IDs, corrected spellings of the IDs
 
 ### Validator Testing 
 
@@ -255,7 +256,19 @@ The website has been tested; including internal (buttons and navbar) & external 
 | Settings Tutorial Light Triangle Basics | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
 | Photo History Header | Reference Link of Jonathan Talbert Under Photo | Open Jonathan Talbert Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
 | Photo History Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-
+| Photo History First Section | Reference Link of Thought Co Under Photo | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History First Section | Carousel Previous Button on first Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History First Section | Carousel Next Button on first Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History First Section | Carousel Previous Button on second Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History First Section | Carousel Next Button on second Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History First Section | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Previous Button on first Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Next Button on first Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Previous Button on second Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Next Button on second Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Previous Button on third Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Next Button on third Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Photo History Famous Photographers | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
 
 ### Unfixed Bugs
 
