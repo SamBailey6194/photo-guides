@@ -192,13 +192,13 @@ The website has been tested; including internal (buttons and navbar) & external 
   - Warnings that were returned and not needed to be fixed are explained below. There is one general warning explained below:
     1. Social links in footer does not require a heading
 
-    - [W3C validator - Homepage](assets/readmeimgs/Validator%20Testing/homepage_html_validator.PNG) 
+    - ![W3C validator - Homepage](assets/readmeimgs/Validator%20Testing/homepage_html_validator.PNG) 
      - Extra warning that doesn't need fixing.
        1. h1 for Services is correct to have the header in the center of the bootstrap grid system 
-    - [W3C validator - Equipment](add link)
-    - [W3C validator - Tutorial](add link)
-    - [W3C validator - History](add link)
-    - [W3C validator - Success](add link)
+    - ![W3C validator - Equipment](assets/readmeimgs/Validator%20Testing/equipment_html_validator.PNG)
+    - ![W3C validator - Tutorial](assets/readmeimgs/Validator%20Testing/tutorial_html_validator.PNG)
+    - ![W3C validator - History](add link)
+    - ![W3C validator - Success](add link)
 
 - CSS
   - Put CSS through Autoprefixer to ensure it works on all browsers
