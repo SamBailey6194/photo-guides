@@ -192,9 +192,11 @@ The website has been tested; including internal (buttons and navbar) & external 
     - [W3C validator - Success](add link)
 
 - CSS
-  - No errors were found when passing through the official Jigsaw validator, see link below.
+  - Put CSS through Autoprefixer to ensure it works on all browsers
+  - No errors were found when passing through the official Jigsaw validator, see links below.
   
-    - [(Jigsaw) validator](add link)
+   ![(Jigsaw) validator 1](assets/readmeimgs/Validator%20Testing/CSS_1.PNG)
+   ![(Jigsaw) validator 2](assets/readmeimgs/Validator%20Testing/CSS_2.PNG)
 
 - Lighthouse Score
   - Below you can see my lighthouse scores
