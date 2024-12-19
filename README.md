@@ -212,13 +212,9 @@ The website has been tested; including internal (buttons and navbar) & external 
   - Below you can see my lighthouse scores
 
   ![Lighthouse - Homepage](Lighthouse screenshot)
-  
   ![Lighthouse - Equipment](Lighthouse screenshot)
-  
   ![Lighthouse - Tutorial](Lighthouse screenshot)
-  
   ![Lighthouse - History](Lighthouse screenshot)
-  
   ![Lighthouse - Success](Lighthouse screenshot)
 
 ### Links and Actions
