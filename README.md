@@ -18,7 +18,7 @@ Below are the features for the website and at the end is listed any features tha
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - The navbar is fully responsive across all sizes of devices and become a drop down on smaller screens to make navigation easier on smaller screens.
 
-![Nav Bar](assets/readmeimgs/General/Navbar.PNG)
+![Nav Bar](assets/readmeimgs/General/Navbar.png)
 
 - __Home Page__
 
@@ -67,7 +67,7 @@ Below are the features for the website and at the end is listed any features tha
     - This header aims to intorduce the equipment advice page
     - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the equipment advice page
     
-    ![Equipment Advice Header](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Header.PNG)
+    ![Equipment Advice Header](assets/readmeimgs/Equipment%20Advice/Equipment_Advice_Header.png)
 
   - __Camera Bodies__
 
@@ -101,7 +101,7 @@ Below are the features for the website and at the end is listed any features tha
   - __Header__
 
     - This header aims to intorduce the purpose of the settings tutorial page
-    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from this page
+    - The image of a camera showing the settings along with the paragraph are there to grab the users attention and give them an idea of what to expect from this page
     
     ![Tutorial Page Header](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_header.PNG)
 
@@ -127,31 +127,31 @@ Below are the features for the website and at the end is listed any features tha
 
     ![Tutorial Page aperture Settings](assets/readmeimgs/Tutorial%20Settings/tutorial_setting_aperturesettings.PNG)
 
-- __History and Famous Photographers__
+- __Photo History / History and Inspiration__
 
   - __Header__
 
-    - This header aims to intorduce the purpose of the website
-    - The image of camera equipment along with the paragraph are there to grab the users attention and give them an idea of what to expect from the website going forward
-    - To provide easy access the contact form is linked via the button below the paragraph
+    - This header aims to introduce the purpose of this page to be about giving a brief history of photography and then famous photographers to provide the user with inspiration for their own work
+    - The image of an older camera is used to help illustrate we will be going back in time on this page and the paragraph with it is to give the information of what the page will be giving them, including the names of the 3 famous photographers
     
-    ![Homepage Header](add image)
+    ![Photo History Header](assets/readmeimgs/Photo%20History/Photo_History_Header.png)
 
   - __History of Photography__
 
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    - In this section we will explore the history of photography
+    - First there is a timeline with dates and key events to give a brief overview to the user about the history of photography and the equipment
+    - Second there is provided a paragraph detailing the history of photography and mentioning of key names for some of the inventors of the equipment
     
-    ![Homepage Overview](add image)
+    ![Photo History Timeline](assets/readmeimgs/Photo%20History/Photo_History_Timeline.png)
+    ![Photo History Brief History and Equipment History](assets/readmeimgs/Photo%20History/Photo_History_1.png)
 
   - __Famous Photographers__
 
-    - The homepage includes a section detailing and a small summary as to what to expect from teh website
-    - This has been achieved through the use of responsive cards that have links to each page
-    - The image in each card and opening sentence is there to give the user an idea of what to expect from that page, but is also the opening image and sentence on each pages header to help the user feel at ease that they are in the right section of the website
+    - This section is here to provide inspiration for the user
+    - There are three photographers mentioned with their images shown and a short paragraph outlining their involvement in photography
+    - To help provide even more inspiration below each photographer there is a carousel showing an photos that they have taken
     
-    ![Homepage Overview](add image)
+    ![Photo History Famous Photographers](assets/readmeimgs/Photo%20History/Photo_History_Famous_Photogrpahers.png)
 
 ### Features Left to Implement
 
