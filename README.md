@@ -184,6 +184,7 @@ The website has been tested; including internal (buttons and navbar) & external 
 - Removed closing tag p that had no opening p on equipment.html
 - Changed name to be valid for lighting triangle image
 - Added a closing div tag to tutorial.html to how to use light triangle section
+- Removed space for ID for history section
 
 ### Validator Testing 
 
@@ -194,11 +195,11 @@ The website has been tested; including internal (buttons and navbar) & external 
 
     - ![W3C validator - Homepage](assets/readmeimgs/Validator%20Testing/homepage_html_validator.PNG) 
      - Extra warning that doesn't need fixing.
-       1. h1 for Services is correct to have the header in the center of the bootstrap grid system 
+       1. h1 for Services is correct to have the header in the div to allow the heading to be centered on the bootstrap grid system 
     - ![W3C validator - Equipment](assets/readmeimgs/Validator%20Testing/equipment_html_validator.PNG)
     - ![W3C validator - Tutorial](assets/readmeimgs/Validator%20Testing/tutorial_html_validator.PNG)
-    - ![W3C validator - History](add link)
-    - ![W3C validator - Success](add link)
+    - ![W3C validator - History](assets/readmeimgs/Validator%20Testing/photohistory_html_validator.PNG)
+    - ![W3C validator - Success](assets/readmeimgs/Validator%20Testing/success_html_validator.PNG)
 
 - CSS
   - Put CSS through Autoprefixer to ensure it works on all browsers
