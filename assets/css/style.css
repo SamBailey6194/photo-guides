@@ -181,7 +181,7 @@ footer {
 }
 
 /* Alternate hyperlink colour text on camera lenses table */
-#camera-lenses .hyperlink a {
+.hyperlink a {
     color: #2D0070;
 }
 
