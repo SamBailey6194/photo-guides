@@ -352,6 +352,7 @@ Below are my credits for where I got inspiration for some of the code, where the
 
 ### Media
 
-- Majority of images are either from [Unsplash](https://unsplash.com) or [Pexels](https://www.pexels.com), where possible the exact photographer and source is credited under the image.
+- Majority of images are either from [Unsplash](https://unsplash.com) or [Pexels](https://www.pexels.com) or Google Image Search, where possible the exact photographer and source is credited under the image.
 - Image on "Settings Tutorial" of the light triangle is from [Photography Life](https://photographylife.com/what-is-exposure-triangle)
+- Photo history timeline is from [Thought Co](https://www.thoughtco.com/photography-timeline-1992306)
 - Tutorial carousel photos are from my personal library
