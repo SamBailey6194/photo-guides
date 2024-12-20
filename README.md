@@ -219,9 +219,9 @@ The website has been tested; including internal (buttons and navbar) & external 
 | Equipment Advice Camera Body | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass |
 | Equipment Advice Camera Body | Contact Button | Go to contact form at bottom of page | Pass |
 | Equipment Advice Camera Lens | Reference Link of Markus Spiske Under Photo | Open the images origin Page in a new tab | Pass |
-| Equipment Advice Camera Lens | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass/Fail | Pass |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass |
 | Equipment Advice Camera Lens | Reference Link of Thijs van der Weide Under Photo | Open the images origin Page in a new tab | Pass |
-| Equipment Advice Camera Lens | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass/Fail | Pass |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass |
 | Equipment Advice Camera Lens | Reference Link of Pixabay Under Photo | Open the images origin Page in a new tab | Pass |
 | Equipment Advice Camera Lens | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass |
 | Equipment Advice Camera Lens | Reference Link of MPB | Open MPB Page in a new tab | Pass |
@@ -259,14 +259,23 @@ The website has been tested; including internal (buttons and navbar) & external 
   - Please note some of the performance scores might be lower than expected due to the amount of images on the site and their file sizes causing slower load speeds, if they were made much smaller there would be too much loss in quality of the image
 
   - Homepage
+
   ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Homepage.PNG)
+  
   - Equipment Advice
+  
   ![Lighthouse - Equipment](assets/readmeimgs/Lighthouse%20Tests/Equipment_Advice.PNG)
+  
   - Settings Tutorial
+  
   ![Lighthouse - Tutorial](assets/readmeimgs/Lighthouse%20Tests/Settings_Tutorial.PNG)
+  
   - Photo History
+    
   ![Lighthouse - History](assets/readmeimgs/Lighthouse%20Tests/Photo_History.PNG)
+  
   - Success
+    
   ![Lighthouse - Success](assets/readmeimgs/Lighthouse%20Tests/Success.PNG)
 
 - HTML
@@ -275,17 +284,28 @@ The website has been tested; including internal (buttons and navbar) & external 
     1. Social links in footer does not require a heading
 
     - Homepage
-    ![W3C validator - Homepage](assets/readmeimgs/Validator%20Testing/homepage_html_validator.PNG) 
+      
+    ![W3C validator - Homepage](assets/readmeimgs/Validator%20Testing/homepage_html_validator.PNG)
+
      - Extra warning that doesn't need fixing.
-       1. h1 for Services is correct to have the header in the div to allow the heading to be centered on the bootstrap grid system 
+       1. h1 for Services is correct to have the header in the div to allow the heading to be centered on the bootstrap grid system
+           
     - Equipment Advice Page
+      
     ![W3C validator - Equipment](assets/readmeimgs/Validator%20Testing/equipment_html_validator.PNG)
+    
     - Setings Tutorial Page
+      
     ![W3C validator - Tutorial](assets/readmeimgs/Validator%20Testing/tutorial_html_validator.PNG)
+    
     - Photo History Page
+      
     ![W3C validator - History](assets/readmeimgs/Validator%20Testing/photohistory_html_validator.PNG)
+    
     - Success Page
+      
     ![W3C validator - Success](assets/readmeimgs/Validator%20Testing/success_html_validator.PNG)
+    
 
 - CSS
   - Put CSS through Autoprefixer to ensure it works on all browsers
