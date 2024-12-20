@@ -165,7 +165,7 @@ Below are the features for the website and at the end is listed any features tha
 
 ## Testing 
 
-The website has been tested; including internal (buttons and navbar) & external links, responsive design, and forms; on Opera GX, Google Chrome, Mozilla Firefox, and Microsoft Edge.
+The website has been tested; including internal (buttons and navbar) & external links, responsive design, and forms; on Opera GX, Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari.
 
 ### Fixed Bugs
 
@@ -190,65 +190,65 @@ The website has been tested; including internal (buttons and navbar) & external 
 
 ### Links and Actions
 
-| Location | Link / Button | Expected Action | Pass / Fail Chrome | Pass / Fail Opera | Pass / Fail Firefox | Pass / Fail Safari |
-| --- | --- | --- | --- | --- | --- | --- |
-| All Pages | Navbar Logo | Go to Homepage | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Navbar Home | Go to Homepage | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Navbar Equipment Advice | Go to Equipment Advice Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Navbar Tutorial Setting | Go to Tutorial Settings Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Navbar Photo History | Go to Photo History Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Navbar Contact | Go to Contact Form in Footer | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages (except success page) | Footer Contact Form | Requires all boxes to be filled in and then send to a success page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Success Page | Return to Home Button | Return to Home Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Footer Facebook | Open Facebook in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Footer X (Formerly Twitter) | Open X (Formerly Twitter) in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Footer Instagram | Open Instagram in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| All Pages | Footer YouTube | Open YouTube in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Homepage Header | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Homepage Header | Reference Link of Kir Simakov Under Photo | Open Kir Simakov Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Homepage Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Homepage Services | Equipment Button | Go to Equipment Advice Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Homepage Services | Settings Button | Go to Tutorial Settings Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Homepage Services | History Button | Go to Photo History Page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Header | Reference Link of Alexander Andrews Under Photo | Open Alexander Andrews Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Body | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Body | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Body | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Body | Reference Link of MPB | Open MPB Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Body | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Body | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of Markus Spiske Under Photo | Open the images origin Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of Thijs van der Weide Under Photo | Open the images origin Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of Pixabay Under Photo | Open the images origin Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Link of MPB | Open MPB Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Equipment Advice Camera Lens | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Header | Reference Link of Smart Under Photo | Open Smart Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Light Triangle What is it? | Reference Link of Photography Life Under Photo | Open Photography Life Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Light Triangle What is it? | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Basics | Carousel Next Buttons | Move photo to the next photo | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Basics | Carousel Previous Buttons | Move photo to the next photo | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Settings Tutorial Light Triangle Basics | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Header | Reference Link of Jonathan Talbert Under Photo | Open Jonathan Talbert Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History First Section | Reference Link of Thought Co Under Photo | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History First Section | Carousel Previous Button on first Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History First Section | Carousel Next Button on first Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History First Section | Carousel Previous Button on second Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History First Section | Carousel Next Button on second Carousel | Open Thought Co Page in a new tab | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History First Section | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Previous Button on first Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Next Button on first Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Previous Button on second Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Next Button on second Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Previous Button on third Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Next Button on third Carousel | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
-| Photo History Famous Photographers | Contact Button | Go to contact form at bottom of page | Pass/Fail | Pass/Fail | Pass/Fail | Pass/Fail |
+| Location | Link / Button | Expected Action | Pass / Fail |
+| --- | --- | --- | --- |
+| All Pages | Navbar Logo | Go to Homepage | Pass |
+| All Pages | Navbar Home | Go to Homepage | Pass |
+| All Pages | Navbar Equipment Advice | Go to Equipment Advice Page | Pass |
+| All Pages | Navbar Tutorial Setting | Go to Tutorial Settings Page | Pass |
+| All Pages | Navbar Photo History | Go to Photo History Page | Pass |
+| All Pages | Navbar Contact | Go to Contact Form in Footer (on success page goes to homepage contact form) | Pass |
+| All Pages (except success page) | Footer Contact Form | Requires all boxes to be filled in and then send to a success page | Pass |
+| Success Page | Return to Home Button | Return to Home Page | Pass |
+| All Pages | Footer Facebook | Open Facebook in a new tab | Pass |
+| All Pages | Footer X (Formerly Twitter) | Open X (Formerly Twitter) in a new tab | Pass |
+| All Pages | Footer Instagram | Open Instagram in a new tab | Pass |
+| All Pages | Footer YouTube | Open YouTube in a new tab | Pass |
+| Homepage Header | Contact Button | Go to contact form at bottom of page | Pass |
+| Homepage Header | Reference Link of Kir Simakov Under Photo | Open Kir Simakov Unsplash Page in a new tab | Pass |
+| Homepage Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass |
+| Homepage Services | Equipment Button | Go to Equipment Advice Page | Pass |
+| Homepage Services | Settings Button | Go to Tutorial Settings Page | Pass |
+| Homepage Services | History Button | Go to Photo History Page | Pass |
+| Equipment Advice Header | Reference Link of Alexander Andrews Under Photo | Open Alexander Andrews Unsplash Page in a new tab | Pass |
+| Equipment Advice Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass |
+| Equipment Advice Camera Body | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass |
+| Equipment Advice Camera Body | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass |
+| Equipment Advice Camera Body | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass |
+| Equipment Advice Camera Body | Reference Link of MPB | Open MPB Page in a new tab | Pass |
+| Equipment Advice Camera Body | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass |
+| Equipment Advice Camera Body | Contact Button | Go to contact form at bottom of page | Pass |
+| Equipment Advice Camera Lens | Reference Link of Markus Spiske Under Photo | Open the images origin Page in a new tab | Pass |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under First Photo | Open Pexels Page in a new tab | Pass/Fail | Pass |
+| Equipment Advice Camera Lens | Reference Link of Thijs van der Weide Under Photo | Open the images origin Page in a new tab | Pass |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under Second Photo | Open Pexels Page in a new tab | Pass/Fail | Pass |
+| Equipment Advice Camera Lens | Reference Link of Pixabay Under Photo | Open the images origin Page in a new tab | Pass |
+| Equipment Advice Camera Lens | Reference Link of Pexels Under Third Photo | Open Pexels Page in a new tab | Pass |
+| Equipment Advice Camera Lens | Reference Link of MPB | Open MPB Page in a new tab | Pass |
+| Equipment Advice Camera Lens | Reference Links in Price Points Table | Open Relevant Links to Camera Bodies in a new tab | Pass |
+| Equipment Advice Camera Lens | Contact Button | Go to contact form at bottom of page | Pass |
+| Settings Tutorial Header | Reference Link of Smart Under Photo | Open Smart Unsplash Page in a new tab | Pass |
+| Settings Tutorial Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass |
+| Settings Tutorial Light Triangle What is it? | Reference Link of Photography Life Under Photo | Open Photography Life Page in a new tab | Pass |
+| Settings Tutorial Light Triangle What is it? | Contact Button | Go to contact form at bottom of page | Pass |
+| Settings Tutorial Basics | Carousel Next Buttons | Move photo to the next photo | Pass |
+| Settings Tutorial Basics | Carousel Previous Buttons | Move photo to the next photo | Pass |
+| Settings Tutorial Light Triangle Basics | Contact Button | Go to contact form at bottom of page | Pass |
+| Photo History Header | Reference Link of Jonathan Talbert Under Photo | Open Jonathan Talbert Unsplash Page in a new tab | Pass |
+| Photo History Header | Reference Link of Unsplash Under Photo | Open Unsplash Page in a new tab | Pass |
+| Photo History First Section | Reference Link of Thought Co Under Photo | Open Thought Co Page in a new tab | Pass |
+| Photo History First Section | Carousel Previous Button on first Carousel | Open Thought Co Page in a new tab | Pass |
+| Photo History First Section | Carousel Next Button on first Carousel | Open Thought Co Page in a new tab | Pass |
+| Photo History First Section | Carousel Previous Button on second Carousel | Open Thought Co Page in a new tab | Pass |
+| Photo History First Section | Carousel Next Button on second Carousel | Open Thought Co Page in a new tab | Pass |
+| Photo History First Section | Contact Button | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Previous Button on first Carousel | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Next Button on first Carousel | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Previous Button on second Carousel | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Next Button on second Carousel | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Previous Button on third Carousel | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Next Button on third Carousel | Go to contact form at bottom of page | Pass |
+| Photo History Famous Photographers | Contact Button | Go to contact form at bottom of page | Pass |
 
 ### Validator Testing 
 
