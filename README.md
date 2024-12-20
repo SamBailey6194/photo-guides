@@ -254,12 +254,20 @@ The website has been tested; including internal (buttons and navbar) & external 
 
 - Lighthouse Score
   - Below you can see my lighthouse scores
+  - Please note that the accessibility isn't 100 as headings are not sequential due to styling decisions
+  - Please note that the Best Practices isn't 100 due to image aspect ratios are changed due to width and height set in CSS
+  - Please note some of the performance scores might be lower than expected due to the amount of images on the site and their file sizes causing slower load speeds, if they were made much smaller there would be too much loss in quality of the image
 
-  ![Lighthouse - Homepage](Lighthouse screenshot)
-  ![Lighthouse - Equipment](Lighthouse screenshot)
-  ![Lighthouse - Tutorial](Lighthouse screenshot)
-  ![Lighthouse - History](Lighthouse screenshot)
-  ![Lighthouse - Success](Lighthouse screenshot)
+  - Homepage
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Homepage.PNG)
+  - Equipment Advice
+  ![Lighthouse - Equipment](assets/readmeimgs/Lighthouse%20Tests/Equipment_Advice.PNG)
+  - Settings Tutorial
+  ![Lighthouse - Tutorial](assets/readmeimgs/Lighthouse%20Tests/Settings_Tutorial.PNG)
+  - Photo History
+  ![Lighthouse - History](assets/readmeimgs/Lighthouse%20Tests/Photo_History.PNG)
+  - Success
+  ![Lighthouse - Success](assets/readmeimgs/Lighthouse%20Tests/Success.PNG)
 
 - HTML
   - No errors were returned when passing through the official W3C Validator, see links below for each page.
