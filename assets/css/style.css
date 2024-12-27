@@ -60,16 +60,20 @@ h3 {
 /* Make h4-h6 headings not uppercase */
 h4,
 h5,
-h6 {
+h6,
+.h4,
+.h5,
+.h6 {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
+    text-transform: capitalize;
 }
 
 /* Making h4 headings for light triangle sections uppercase */
-#whatlt h4,
+/*#whatlt h4,
 #basicslt h4 {
     text-transform: uppercase;
-}
+}*/
 
 /* Main Global Styles */
 main {

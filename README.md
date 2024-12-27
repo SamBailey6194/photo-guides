@@ -280,8 +280,6 @@ The website has been tested; including internal (buttons and navbar) & external 
 
 - HTML
   - No errors were returned when passing through the official W3C Validator, see links below for each page.
-  - Warnings that were returned and not needed to be fixed are explained below. There is one general warning explained below:
-    1. Social links in footer does not require a heading
 
     - Homepage
       
