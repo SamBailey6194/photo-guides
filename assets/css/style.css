@@ -69,12 +69,6 @@ h6,
     text-transform: capitalize;
 }
 
-/* Making h4 headings for light triangle sections uppercase */
-/*#whatlt h4,
-#basicslt h4 {
-    text-transform: uppercase;
-}*/
-
 /* Main Global Styles */
 main {
     /* expand main section to push footer to bottom */
