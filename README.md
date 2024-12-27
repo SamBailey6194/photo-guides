@@ -187,6 +187,7 @@ The website has been tested; including internal (buttons and navbar) & external 
 - Removed space for ID for history section
 - Load times were to slow due to image sizes, therefore adjusted image sizes in external photo editor and reuploaded to help with loading times of pages
 - Hyperlinks natural colour were hard to read due to contrast with background, used hyperlink class to change colours of all hyperlinks to ensure the contrast worked well
+- Load times were slower due to image file size, uploaded smaller image files
 
 ### Links and Actions
 
@@ -256,7 +257,6 @@ The website has been tested; including internal (buttons and navbar) & external 
   - Below you can see my lighthouse scores
   - Please note that the accessibility isn't 100 as headings are not sequential due to styling decisions
   - Please note that the Best Practices isn't 100 due to image aspect ratios are changed due to width and height set in CSS
-  - Please note some of the performance scores might be lower than expected due to the amount of images on the site and their file sizes causing slower load speeds, if they were made much smaller there would be too much loss in quality of the image
 
   - Homepage
 
