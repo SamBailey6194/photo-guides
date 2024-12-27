@@ -279,14 +279,11 @@ The website has been tested; including internal (buttons and navbar) & external 
   ![Lighthouse - Success](assets/readmeimgs/Lighthouse%20Tests/Success.PNG)
 
 - HTML
-  - No errors were returned when passing through the official W3C Validator, see links below for each page.
+  - No errors were returned when passing through the official W3C Validator, see images below for each page.
 
     - Homepage
       
     ![W3C validator - Homepage](assets/readmeimgs/Validator%20Testing/homepage_html_validator.PNG)
-
-     - Extra warning that doesn't need fixing.
-       1. h1 for Services is correct to have the header in the div to allow the heading to be centered on the bootstrap grid system
            
     - Equipment Advice Page
       
@@ -318,7 +315,7 @@ No bugs left, all were fixed
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section desribes how I deployed my website
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the "Settings" tab 
@@ -329,6 +326,24 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://sambailey6194.github.io/photo-guides/ 
 
+## Cloning
+
+This section describes how other software developers can clone the code to edit it elsewhere
+
+- To clone the code so you can edit it yourself please follow the below:
+PLEASE NOTE THIS IS FOR WINDOWS COMMAND LINE
+  - In the GitHub repository click the dropdown for '<> code'
+  - Ensure you are on 'local' and have 'https' selected, then copy the URL by clicking the symbol next to the URL box
+  - Once copied in the search bar on your taskbar type in 'cmd' and open 'Command Prompt' or 'Comman Line'
+  - In command line type 'git clone' and paste the url next to it
+  - In file explorer locate 'This PC' down the side, then 'local disk' (usually the :C drive), then 'users', then your user, then find the folder called 'photo-guides'
+  - You now have access to all the code and files locally
+  - If you want to edit the code, please ensure you creat a new branch in the software you are using enabling us to potentially see the edits you have done before uploading them to the original GitHub repository
+  - To create a new branch that depends on the software you are using, please google how to do this for your software
+
+If you aren't on windows please google how to get a GitHub repository stored locally on your OS
+
+ 
 ## Credits 
 
 Below are my credits for where I got inspiration for some of the code, where the content came from and where media is from.
