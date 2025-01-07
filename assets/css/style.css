@@ -169,8 +169,16 @@ footer {
 
 /* Give images in header correct sizing to help load times */
 .img-size {
-    width: 401px;
-    height: 291px;
+    height: 255px;
+    width: 296px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Centering text on smaller screens under images */
+.ref-center {
+    text-align: center;
 }
 
 /* Price Points Table Backgrounds and Width */
@@ -209,23 +217,6 @@ footer {
 #billbrandt .carousel-item,
 #vivianmaier .carousel-item {
     max-height: 279.95px;
-}
-
-/* Media Query for Smaller Mobile Devices (375px) */
-@media screen and (max-width: 375px) {
-    /* Adjusting image sizes in header for smaller mobile devices to improve load times */
-    .img-size {
-        height: 255px;
-        width: 296px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* Centering text on smaller screens under images */
-    .ref-center {
-        text-align: center;
-    }
 }
 
 /* Media Query for Tablet (768px) */
