@@ -101,6 +101,11 @@ footer {
     border-bottom: 2px solid var(--secondary-color);
 }
 
+/* Header Paragraph size for smaller devices adjusted to help load times */
+.headerp {
+    font-size: 80%;
+}
+
 /* Socials Links */
 #contact .social-links i {
     color: var(--secondary-color);
@@ -248,6 +253,11 @@ footer {
         height: 505px;
         width: 696px;
     }
+
+    /* Adjusting header paragrpahs to be normal size on tablet screen sizes */
+    .headerp {
+        font-size: 100%;
+    }
 }
 
 /* Media Query for Laptop (992px) */
@@ -293,6 +303,8 @@ footer {
 
 /* Media Query for Desktop (1200px) */
 @media screen and (min-width: 1200px) {
+    
+    /* Adjusting header paragraph size on larger screens */
     .headerp {
         font-size: 120%;
     }
