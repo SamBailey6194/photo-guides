@@ -31,8 +31,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -73,12 +73,12 @@ h6,
 main {
     /* expand main section to push footer to bottom */
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     -ms-flex-preferred-size: auto;
-        flex-basis: auto;
+    flex-basis: auto;
     /* Background Colour */
     background-color: var(--quartary-color);
 }
@@ -167,6 +167,12 @@ footer {
     font-size: 200%;
 }
 
+/* Give images in header correct sizing to help load times */
+.img-size {
+    width: 401px;
+    height: 291px;
+}
+
 /* Price Points Table Backgrounds and Width */
 #camera-bodies .table * {
     background-color: var(--tertiary-color);
@@ -205,6 +211,23 @@ footer {
     max-height: 279.95px;
 }
 
+/* Media Query for Smaller Mobile Devices (375px) */
+@media screen and (max-width: 375px) {
+    /* Adjusting image sizes in header for smaller mobile devices to improve load times */
+    .img-size {
+        height: 255px;
+        width: 296px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Centering text on smaller screens under images */
+    .ref-center {
+        text-align: center;
+    }
+}
+
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
 
@@ -227,6 +250,12 @@ footer {
     #billbrandt .carousel-item,
     #vivianmaier .carousel-item {
         max-height: 160.39px;
+    }
+
+    /* Adjusting image sizes in header for bigger screen sizes to improve load times */
+    .img-size {
+        height: 505px;
+        width: 696px;
     }
 }
 
@@ -263,6 +292,12 @@ footer {
     #vivianmaier .carousel-item {
         max-height: 219.78px;
     }
+
+    /* Adjusting image sizes in header for bigger screen sizes to improve load times */
+    .img-size {
+        height: 331px;
+        width: 456px;
+    }
 }
 
 /* Media Query for Desktop (1200px) */
@@ -296,6 +331,12 @@ footer {
     #vivianmaier .carousel-item {
         max-height: 264.36px;
     }
+
+    /* Adjusting image sizes in header for bigger screen sizes to improve load times */
+    .img-size {
+        height: 396px;
+        width: 546px;
+    }
 }
 
 /* Media Query for Largest Screens (1400px) */
@@ -327,5 +368,11 @@ footer {
     #billbrandt .carousel-item,
     #vivianmaier .carousel-item {
         max-height: 308.91px;
+    }
+
+    /* Adjusting image sizes in header for bigger screen sizes to improve load times */
+    .img-size {
+        height: 461px;
+        width: 636px;
     }
 }
