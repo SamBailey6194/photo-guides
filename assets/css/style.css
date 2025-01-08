@@ -174,7 +174,6 @@ footer {
 
 /* Give images in header correct sizing to help load times */
 .img-size {
-    height: 255px;
     width: 296px;
     display: block;
     margin-left: auto;
@@ -250,7 +249,6 @@ footer {
 
     /* Adjusting image sizes in header for bigger screen sizes to improve load times */
     .img-size {
-        height: 505px;
         width: 696px;
     }
 
@@ -296,7 +294,6 @@ footer {
 
     /* Adjusting image sizes in header for bigger screen sizes to improve load times */
     .img-size {
-        height: 331px;
         width: 456px;
     }
 }
@@ -337,7 +334,6 @@ footer {
 
     /* Adjusting image sizes in header for bigger screen sizes to improve load times */
     .img-size {
-        height: 396px;
         width: 546px;
     }
 }
@@ -375,7 +371,6 @@ footer {
 
     /* Adjusting image sizes in header for bigger screen sizes to improve load times */
     .img-size {
-        height: 461px;
         width: 636px;
     }
 }
