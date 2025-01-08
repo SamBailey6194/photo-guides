@@ -169,13 +169,15 @@ footer {
 
 /* Give images in header correct sizing to help load times */
 .img-size {
-    /* width: 296px; */
-    display: none;
+    width: 296px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Centering text on smaller screens under images */
 .ref-center {
-    display: none;
+    text-align: center;
 }
 
 /* Price Points Table Backgrounds and Width */
@@ -243,13 +245,6 @@ footer {
     /* Adjusting image sizes in header for bigger screen sizes to improve load times */
     .img-size {
         width: 696px;
-        display: block;
-    }
-
-    /* Revealing image reference in header on larger screens */
-    .ref-center {
-        display: block;
-        text-align: center;
     }
 }
 
