@@ -1,12 +1,11 @@
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
 
 /* CSS Variables */
 :root {
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: "Anton", sans-serif;
-    --tertiary-font: "Playfair Display", sans-serif;
     --primary-color: #050606;
     /*Jet Black*/
     --secondary-color: #FDFDFD;
@@ -39,7 +38,7 @@ body {
 nav {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    font-family: var(--tertiary-font);
+    font-family: var(--primary-font);
 }
 
 /* Header Global Styles */
