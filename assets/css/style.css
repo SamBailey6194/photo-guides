@@ -101,11 +101,6 @@ footer {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-/* Header Paragraph size for smaller devices adjusted to help load times */
-.headerp {
-    font-size: 80%;
-}
-
 /* Socials Links */
 #contact .social-links i {
     color: var(--secondary-color);
@@ -176,13 +171,10 @@ footer {
 .img-size {
     /* width: 296px; */
     display: none;
-    /*margin-left: auto;
-    margin-right: auto;*/
 }
 
 /* Centering text on smaller screens under images */
 .ref-center {
-    /*text-align: center;*/
     display: none;
 }
 
@@ -224,28 +216,6 @@ footer {
     max-height: 279.95px;
 }
 
-/* Media Query for Tablet (550px) */
-@media screen and (min-width: 550px) {
-    /* Adjusting image sizes in header for bigger screen sizes to improve load times */
-    .img-size {
-        width: 496px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* Revealing image reference in header on larger screens */
-    .ref-center {
-        display: block;
-        text-align: center;
-    }
-
-    /* Adjusting header paragrpahs to be normal size on tablet screen sizes */
-    .headerp {
-        font-size: 100%;
-    }
-} 
-
 /* Media Query for Tablet (768px) */
 @media screen and (min-width: 768px) {
 
@@ -273,6 +243,13 @@ footer {
     /* Adjusting image sizes in header for bigger screen sizes to improve load times */
     .img-size {
         width: 696px;
+        display: block;
+    }
+
+    /* Revealing image reference in header on larger screens */
+    .ref-center {
+        display: block;
+        text-align: center;
     }
 }
 
