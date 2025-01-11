@@ -200,7 +200,12 @@ The website has been tested; including internal (buttons and navbar) & external 
 | All Pages | Navbar Tutorial Setting | Go to Tutorial Settings Page | Pass |
 | All Pages | Navbar Photo History | Go to Photo History Page | Pass |
 | All Pages | Navbar Contact | Go to Contact Form in Footer (on success page goes to homepage contact form) | Pass |
-| All Pages (except success page) | Footer Contact Form | Requires all boxes to be filled in and then send to a success page | Pass |
+| All Pages (except success page) | Footer Contact Form Full Name | Notification asking Full Name to be filled in | Pass |
+| All Pages (except success page) | Footer Contact Form Email Address | Notification asking Email Address to be filled in and requires the @ symbol in the field | Pass |
+| All Pages (except success page) | Footer Contact Form Phone Number | Notification asking Phone Number to be filled in and can only have numbers in it | Pass |
+| All Pages (except success page) | Footer Contact Form Question Topic | Notification asking Question Topic to be selected from dropdown | Pass |
+| All Pages (except success page) | Footer Contact Form Message | Notification asking Message to be filled in | Pass |
+| All Pages (except success page) | Footer Contact Submit Button | Once all the fields are filled in to go to success page | Pass |
 | Success Page | Return to Home Button | Return to Home Page | Pass |
 | All Pages | Footer Facebook | Open Facebook in a new tab | Pass |
 | All Pages | Footer X (Formerly Twitter) | Open X (Formerly Twitter) in a new tab | Pass |
