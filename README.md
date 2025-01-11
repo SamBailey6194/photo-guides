@@ -260,28 +260,47 @@ The website has been tested; including internal (buttons and navbar) & external 
 ### Validator Testing 
 
 - Lighthouse Score
-  - Below you can see my lighthouse scores
-  - Please note that the Best Practices isn't 100 due to image aspect ratios are changed due to width and height set in CSS
+  - Below you can see my lighthouse scores tested on Chrome Incognito Mode
 
-  - Homepage
+  - Homepage Mobile
 
-  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Homepage.PNG)
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Mobile/Homepage_Mobile.png)
+
+  - Homepage Desktop
   
-  - Equipment Advice
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Desktop/Homepage_Desktop.png)
+
+  - Equipment Advice Mobile
   
-  ![Lighthouse - Equipment](assets/readmeimgs/Lighthouse%20Tests/Equipment_Advice.PNG)
+  ![Lighthouse - Equipment](assets/readmeimgs/Lighthouse%20Tests/Mobile/Equipment_Advice_Mobile.png)
+
+  - Equipment Advice Desktop
+
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Desktop/Equipment_Advice_Desktop.png)
   
-  - Settings Tutorial
+  - Settings Tutorial Mobile
   
-  ![Lighthouse - Tutorial](assets/readmeimgs/Lighthouse%20Tests/Settings_Tutorial.PNG)
+  ![Lighthouse - Tutorial](assets/readmeimgs/Lighthouse%20Tests/Mobile/Settings_Tutorial_Mobile.png)
+
+  - Settings Tutorial Desktop
+
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Desktop/Settings_Tutorial_Desktop.png)
   
-  - Photo History
+  - Photo History Mobile
     
-  ![Lighthouse - History](assets/readmeimgs/Lighthouse%20Tests/Photo_History.PNG)
+  ![Lighthouse - History](assets/readmeimgs/Lighthouse%20Tests/Mobile/History_Mobile.png)
+
+  - Photo History Desktop
+
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Desktop/History_Desktop.png)
   
-  - Success
+  - Success Mobile
     
-  ![Lighthouse - Success](assets/readmeimgs/Lighthouse%20Tests/Success.PNG)
+  ![Lighthouse - Success](assets/readmeimgs/Lighthouse%20Tests/Mobile/Success_Mobile.png)
+
+  - Success Desktop
+
+  ![Lighthouse - Homepage](assets/readmeimgs/Lighthouse%20Tests/Desktop/Success_Desktop.png)
 
 - HTML
   - No errors were returned when passing through the official W3C Validator, see images below for each page.
