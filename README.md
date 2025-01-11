@@ -311,7 +311,20 @@ The website has been tested; including internal (buttons and navbar) & external 
 
 ### Unfixed Bugs
 
-No bugs left, all were fixed
+- Varying performance score on Lighthouse Mobile due to LCP and Render Blocking
+ - The scores cary from in the 60s to the 90s
+
+- Please note the Lighthouse desktop performance scores are regularly above 90.
+
+#### Attempted Fixes
+
+After a meeting with my mentor and a friend who is a software developer I attempted to address the LCP and render blocking by doing the below:
+- Making the image files across the whole site smaller by adjusting the dimensions in a photo editor to be the biggest size they would be in any of the responsive designs
+- Changing the font size property using CSS on different screen sizes for headerp class
+- Hiding the images in the header on smaller screen sizes
+- Removing flexbox bootstrap CSS from header
+- Removing img-fluid bootstrap class and creating img-size class to assigning width sizes
+- Removing Lateef font and Playfair Display font from google fonts import link so there are only two google fonts for the site
 
 ## Deployment
 
@@ -324,7 +337,7 @@ This section desribes how I deployed my website
   - In the "Branch" section "main" was selected as the branch then "/root" was selected
   - Click "save" and the GitHub Pages was deployed
 
-The live link can be found here - https://sambailey6194.github.io/photo-guides/ 
+The live link can be found here - https://sambailey6194.github.io/photo-guides/
 
 ## Cloning
 
