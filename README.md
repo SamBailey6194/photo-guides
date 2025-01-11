@@ -190,6 +190,23 @@ The website has been tested; including internal (buttons and navbar) & external 
 - Load times were slower due to image file size, uploaded smaller image files
 - Changed headers to be sequential and added styling using bootstrap and custom css to enable screen readers to read it better
 
+### Unfixed Bugs
+
+- Varying performance score on Lighthouse Mobile due to LCP and Render Blocking
+  - The scores cary from in the 60s to the 90s
+
+- Please note the Lighthouse desktop performance scores are regularly above 90.
+
+#### Attempted Fixes
+
+After a meeting with my mentor and a friend who is a software developer I attempted to address the LCP and render blocking by doing the below:
+- Making the image files across the whole site smaller by adjusting the dimensions in a photo editor to be the biggest size they would be in any of the responsive designs
+- Changing the font size property using CSS on different screen sizes for headerp class
+- Hiding the images in the header on smaller screen sizes
+- Removing flexbox bootstrap CSS from header
+- Removing img-fluid bootstrap class and creating img-size class to assigning width sizes
+- Removing Lateef font and Playfair Display font from google fonts import link so there are only two google fonts for the site
+
 ### Links and Actions
 
 | Location | Link / Button | Expected Action | Pass / Fail |
@@ -331,23 +348,6 @@ The website has been tested; including internal (buttons and navbar) & external 
   - No errors were found when passing through the official Jigsaw validator, see links below.
   
    ![(Jigsaw) validator 1](assets/readmeimgs/Validator%20Testing/CSS.PNG)
-
-### Unfixed Bugs
-
-- Varying performance score on Lighthouse Mobile due to LCP and Render Blocking
-  - The scores cary from in the 60s to the 90s
-
-- Please note the Lighthouse desktop performance scores are regularly above 90.
-
-#### Attempted Fixes
-
-After a meeting with my mentor and a friend who is a software developer I attempted to address the LCP and render blocking by doing the below:
-- Making the image files across the whole site smaller by adjusting the dimensions in a photo editor to be the biggest size they would be in any of the responsive designs
-- Changing the font size property using CSS on different screen sizes for headerp class
-- Hiding the images in the header on smaller screen sizes
-- Removing flexbox bootstrap CSS from header
-- Removing img-fluid bootstrap class and creating img-size class to assigning width sizes
-- Removing Lateef font and Playfair Display font from google fonts import link so there are only two google fonts for the site
 
 ## Deployment
 
