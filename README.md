@@ -330,13 +330,12 @@ The website has been tested; including internal (buttons and navbar) & external 
   - Put CSS through Autoprefixer to ensure it works on all browsers
   - No errors were found when passing through the official Jigsaw validator, see links below.
   
-   ![(Jigsaw) validator 1](assets/readmeimgs/Validator%20Testing/CSS_1.PNG)
-   ![(Jigsaw) validator 2](assets/readmeimgs/Validator%20Testing/CSS_2.PNG)
+   ![(Jigsaw) validator 1](assets/readmeimgs/Validator%20Testing/CSS.PNG)
 
 ### Unfixed Bugs
 
 - Varying performance score on Lighthouse Mobile due to LCP and Render Blocking
- - The scores cary from in the 60s to the 90s
+  - The scores cary from in the 60s to the 90s
 
 - Please note the Lighthouse desktop performance scores are regularly above 90.
 
