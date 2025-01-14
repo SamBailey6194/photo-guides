@@ -406,3 +406,4 @@ Below are my credits for where I got inspiration for some of the code, where the
 - Image on "Settings Tutorial" of the light triangle is from [Photography Life](https://photographylife.com/what-is-exposure-triangle)
 - Photo history timeline is from [Thought Co](https://www.thoughtco.com/photography-timeline-1992306)
 - Tutorial carousel photos are from my personal library
+- Photos of famous photographers and their works have been found on Google Images as they are their own work, they aren't on open source websites
