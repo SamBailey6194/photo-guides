@@ -206,6 +206,7 @@ After a meeting with my mentor and a friend who is a software developer I attemp
 - Removing flexbox bootstrap CSS from header
 - Removing img-fluid bootstrap class and creating img-size class to assigning width sizes
 - Removing Lateef font and Playfair Display font from google fonts import link so there are only two google fonts for the site
+- Attempted to learn pseudo elements and classes in CSS to load the images sized correctly for the different screen sizes, but couldn't get the image to load properly using ::before and content: url()
 
 ### Links and Actions
 
